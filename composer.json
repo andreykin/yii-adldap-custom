@@ -1,0 +1,12 @@
+{
+    "name": "andreykin/yii-adldap-custom",
+    "description": "Active directory support.",
+    "keywords": ["yii", "ldap"],
+    "require": {
+          "php": ">=5.1.0",
+          "yiisoft/yii": "*"
+      },
+	"autoload": {
+        "classmap": ["adLDAP/YiiLDAP.php"]
+    }
+}
